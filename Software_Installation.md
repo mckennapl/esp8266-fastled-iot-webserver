@@ -276,7 +276,11 @@ Click on *Tools >> ESP8266 Sketch Data Upload*
 
 ![ESP8266 WiFi Captive Portal Homepage](http://i.imgur.com/YPvW9eql.png) ![ESP8266 WiFi Captive Portal Configuration](http://i.imgur.com/oicWJ4gl.png)
 
-4. Connect to the UI in your selected network by opening `http://<IP-ADDRESS>/` in your browser of choice. If mDNS was enabled, you should be able to access the UI via `http://<Hostname>.local/`
+4. Open Console: Tools -> Serial Monitor
+
+5. Restart esp3266 and note the IP address in the monitor
+   
+6. Connect to the UI in your selected network by opening `http://<IP-ADDRESS>/` in your browser of choice. If mDNS was enabled, you should be able to access the UI via `http://<Hostname>.local/`
 
 
 
